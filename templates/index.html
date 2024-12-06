@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <title>Ticket Parser</title>    
+</head>
+
+<body>
+    <div class="container">
+        <!-- Left panel (Text input and analysis trigger) -->
+        <div class="left">
+            <div class="header">Ticket Parser</div>
+            <textarea class="text-field" id="inputText" placeholder="Please insert text here"></textarea>
+            <div class="tooltip">You can paste text or upload a .txt file.</div>
+            <input type="file" id="fileUpload" accept=".txt">
+            <br><br>
+            <button class="button" onclick="analyzeText()">Analyse Text</button>
+        </div>
+        
+        <!-- Right panel (Analysis output) -->
+        <div class="right">
+            <div class="header">Analysis Result</div>
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script> 
+
+</body>
+</html>
