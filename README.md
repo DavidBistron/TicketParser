@@ -27,7 +27,7 @@ Small application for analysing emails with sentiment analysis, using spacy (en_
 - The sentiment analysis classifies the email as angry and a red light symbol appears.
 
 
-- <img width="873" alt="Bad" src="https://github.com/user-attachments/assets/6eaa2680-58df-41f5-be1a-dd567424825f"><br>
+<img width="873" alt="Bad" src="https://github.com/user-attachments/assets/6eaa2680-58df-41f5-be1a-dd567424825f"><br>
 - Of course, you can also simply enter any text in the text field and click the analyze text button!
 
 # Author
