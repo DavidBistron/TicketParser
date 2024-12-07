@@ -1,43 +1,143 @@
+/* Basic Styling */
 body {
-  font-family: Arial, sans-serif; background-color: #dedddd; 
-} 
-
-.container { 
-  display: flex; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
 }
 
-.left, .right { 
-  width: 50%; padding: 20px; 
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
-.header { 
-  font-size: 24px; font-weight: bold; margin-bottom: 20px; 
+.left, .right {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 48%;
+  box-sizing: border-box;
 }
 
-.text-field { 
-  width: 100%; height: 200px; padding: 10px; margin-bottom: 10px; 
+.header {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #4CAF50;
+  text-align: center;
 }
 
-.tooltip { 
-  font-size: 12px; color: gray; 
+.text-field {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease;
+  resize: none;
 }
 
-.button { 
-  background-color: #4CAF50; color: white; padding: 10px 20px; border: none; cursor: pointer; 
+.text-field:focus {
+  border-color: #4CAF50;
+  outline: none;
 }
 
-.sentiment { 
-  height: 25px; width: 25px; border-radius: 50%; display: inline-block; 
+.tooltip {
+  font-size: 12px;
+  color: #888;
+  text-align: center;
+  margin-top: 5px;
 }
 
-.green { 
-  background-color: green; 
+.button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+  margin-top: 20px;
 }
 
-.yellow { 
-  background-color: yellow; 
+.button:hover {
+  background-color: #45a049;
 }
 
-.red { 
-  background-color: red; 
+input[type="file"] {
+  display: block;
+  margin: 10px auto;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  width: 100%;
+}
+
+#result {
+  font-size: 16px;
+  padding: 15px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.sentiment {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left, .right {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .text-field {
+    height: 150px;
+  }
+
+  .button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    font-size: 22px;
+  }
+
+  .text-field {
+    height: 120px;
+    font-size: 14px;
+  }
+
+  .button {
+    font-size: 14px;
+    padding: 10px;
+  }
 }
