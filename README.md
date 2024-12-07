@@ -10,16 +10,16 @@ Small application for analysing emails with sentiment analysis, using spacy (en_
 - This command will run the python file and start a FLASK server 
 - Open http://127.0.0.1:5000 in your Webbrowser
 - If everything went well, you will see the following start screen:
-<img width="873" alt="Start" src="https://github.com/user-attachments/assets/f1dccf2c-487f-4dd1-85c0-7358e898e8a7">
-- The attachments contain three sample emails. One email is friendly. Click the upload file button and load the email.
+<img width="873" alt="Start" src="https://github.com/user-attachments/assets/f1dccf2c-487f-4dd1-85c0-7358e898e8a7"><br>
+- In the attachments you will find three sample emails. One email is friendly. Click the upload file button and load the email.
 - The sentiment analysis classifies the email as friendly and a green light symbol appears.
-<img width="871" alt="Good" src="https://github.com/user-attachments/assets/5713cc53-580e-4fab-ae69-67c213ec5cc6">
+<img width="871" alt="Good" src="https://github.com/user-attachments/assets/5713cc53-580e-4fab-ae69-67c213ec5cc6"><br>
 - Click the upload file button and load sad email.
 - The sentiment analysis classifies the email as sad and a blue light symbol appears.
-<img width="867" alt="Sad" src="https://github.com/user-attachments/assets/d27414ee-4c98-4e4c-87da-e2fa7b096560">
+<img width="867" alt="Sad" src="https://github.com/user-attachments/assets/d27414ee-4c98-4e4c-87da-e2fa7b096560"><br>
 - Click the upload file button and load the angry email.
 - The sentiment analysis classifies the email as angry and a red light symbol appears.
-- <img width="873" alt="Bad" src="https://github.com/user-attachments/assets/6eaa2680-58df-41f5-be1a-dd567424825f">
+- <img width="873" alt="Bad" src="https://github.com/user-attachments/assets/6eaa2680-58df-41f5-be1a-dd567424825f"><br>
 
 # Author
 
