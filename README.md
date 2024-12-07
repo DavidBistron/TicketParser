@@ -11,13 +11,13 @@ Small application for analysing emails with sentiment analysis, using spacy (en_
 - Open http://127.0.0.1:5000 in your Webbrowser
 - If everything went well, you will see the following start screen:
 <img width="873" alt="Start" src="https://github.com/user-attachments/assets/f1dccf2c-487f-4dd1-85c0-7358e898e8a7"><br>
-- In the attachments you will find three sample emails. One email is friendly. Click the upload file button and load the email.
+- In the attachments you will find three sample emails. One email is friendly. Click the upload file button and load the "friendly" email <b>(email_friendly.txt)</b>.
 - The sentiment analysis classifies the email as friendly and a green light symbol appears.
 <img width="871" alt="Good" src="https://github.com/user-attachments/assets/5713cc53-580e-4fab-ae69-67c213ec5cc6"><br>
-- Click the upload file button and load sad email.
+- Click the upload file button and load the "sad" email <b>(email_sad.txt)</b>.
 - The sentiment analysis classifies the email as sad and a blue light symbol appears.
 <img width="867" alt="Sad" src="https://github.com/user-attachments/assets/d27414ee-4c98-4e4c-87da-e2fa7b096560"><br>
-- Click the upload file button and load the angry email.
+- Click the upload file button and load the "angry" email <b>(email_angry.txt)</b>.
 - The sentiment analysis classifies the email as angry and a red light symbol appears.
 - <img width="873" alt="Bad" src="https://github.com/user-attachments/assets/6eaa2680-58df-41f5-be1a-dd567424825f"><br>
 
